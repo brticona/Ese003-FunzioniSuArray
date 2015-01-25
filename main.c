@@ -59,7 +59,7 @@ float media(int valori[], int dimensione){
     for (i=0 ;i<dimensione ; i++) {
         avg += valori [i];
     }
-    avg / = dimensione;
+    avg /= dimensione;
     return avg; 
 }
 
